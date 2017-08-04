@@ -9,7 +9,9 @@
 	  <!-- endereço para onde será enviado -->
 <form action="http://www.duckduckgo.com">
 <!-- caixa de entrada de texto -->
-Busca:<input type="text" name="q"><br>
+<!-- size: tamanho da caixa em caracteres -->
+<!-- comprimento maximo do texto na caixa -->
+Busca:<input type="text" name="q" size="10" maxlength="15"><br>
 <!-- senha -->
 Senha:<input type="password" name="senha"><br>
 Ingredientes (opcionais):<br>
@@ -29,12 +31,22 @@ Massa(mutuamente exclusivos)<br>
 
 <hr>Cidade:
 <select name="cidade">
-	<option value="1">Pelotas</option>
-	<option value="2">Rio Grande</option>
-	<option value="3">Porto Alegre</option>
+	<optgroup label="RS">
+		<option value="1">Pelotas</option>
+		<option value="2">Rio Grande</option>
+		<option value="3">Porto Alegre</option>
+	</optgroup>
+	<optgroup label="SC">
+		<option value="4">Florianópolis</option>
+		<option value="5">Brusque</option>
+		<option value="6">Tubarão</option>
+	</optgroup>
 </select>
 <hr>
-
+Mensagem:<br>
+<textarea name="mensagem" rows="20" cols="80">
+</textarea>
+<br>
 <!-- botao de enviar o formulário -->
 <input type="submit" name="botao" value="buscar">
 
