@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IFSUL</title>
+<meta charset="utf-8" />
+<style>
+    body {margin:0; /* desliga todas as margens do body */}
+    #pai {	
+        background-color:green;
+        border:1px solid black;
+        margin:0 auto;  /* centraliza horizontalmente */
+        display:table; /* corrije problema na altura
+        				dos elementos filhos */
+        height:1000px;
+        width:1400px; /* 290 + 290 + 820 */
+    }
+    #dvesquerda{
+        padding:15px;
+        margin: 5px;
+        width:250px;
+        /* 15 x 2 + 5 x 2 + 250 = 290 */
+        height: inherit; /* herda altura do pai */
+        background-color: yellow;
+        float:left;
+    }
+    #dvcentro{
+        padding:15px;
+        margin: 5px;
+        width:780px;
+        /* 15 x 2 + 5 x 2 + 780 = 820 */
+        height: inherit;
+        background-color: orange;
+        float:left;
+    }
+    #dvdireita{
+        padding:15px;
+        margin: 5px;
+        width:250px;
+        height: inherit;
+        background-color: gray;
+        color:white;
+        float:left;
+     
+    }
+</style>
+</head>
+<body>
+    <div id="pai">
+    <div id="dvesquerda">Menu esquerdo</div>
+    <div id="dvcentro">Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Nulla sit amet est. Praesent nec nisl a purus blandit viverra. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.<br/>
+
+Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. In consectetuer turpis ut velit. Donec mollis hendrerit risus. Phasellus dolor. Ut varius tincidunt libero.<br/>
+
+
+Praesent ac sem eget est egestas volutpat. Donec vitae sapien ut libero venenatis faucibus. Nulla facilisi. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Proin faucibus arcu quis ante.<br/>
+
+
+Quisque id mi. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Phasellus accumsan cursus velit. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam adipiscing.<br/>
+
+
+Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Curabitur at lacus ac velit ornare lobortis. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Nunc interdum lacus sit amet orci.</div>
+    <div id="dvdireita">Banners e propagandas</div>
+    </div>
+</body>
+</html>
