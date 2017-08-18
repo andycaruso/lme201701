@@ -4,19 +4,25 @@
 <title>IFSUL</title>
 <meta charset="utf-8" />
 <style>
-    .dv01{
+    body {
+        /* zera todas as margens do body */
+        margin:0px;
+         }
+    #dv01{
         border: 5px red solid; /* borda: largura cor tipo */
-
         /* ordem: top right bottom left */
-        padding: 15px 10px 15px 10px; /* distancia interna à borda */
-        margin: 100px 50px 100px 50px; /* distancia externa à borda*/
+        padding: 5px; /* distancia interna à borda */
+        margin: 50px; /* distancia externa à borda*/
         width:100px; /* largura da caixa */
         height: 100px; /* altura da caixa */
+        /* altera o box model para que padding e borda
+        não se somem a width e height */
+        box-sizing: border-box;
     }
 </style>
 </head>
 <body>
-    <div class="dv01">Esta é uma caixa</div>
+    <div id="dv01">Esta é uma caixa</div>
     Tipos de borda:<br/>
     <img src="bordas.png" />
 </body>
