@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IFSUL</title>
+<meta charset="utf-8" />
+<style>
+    body {
+        /* zera todas as margens do body */
+        margin:0px;
+         }
+    #dv01{
+        border: 5px red solid; /* borda: largura cor tipo */
+        /* ordem: top right bottom left */
+        padding: 5px; /* distancia interna à borda */
+        margin: 0px; /* distancia externa à borda*/
+        width:80vw; /* largura da caixa em 80% do viewport (largura da janela do documento) */
+        min-width:650px; /* largura minima */
+        height: 30vh; /* altura da caixa em 30% do viewport */
+        min-height:100px; /* altura minima */
+        /* altera o box model para que padding e borda
+        não se somem a width e height */
+        box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+    <h1>Largura/Altura Máxima e Mínima</h1>
+    <div id="dv01">Esta é uma caixa</div>
+    
+</body>
+</html>
