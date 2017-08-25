@@ -11,18 +11,19 @@
 			padding:0px; /* margem interna */
 			margin:0 auto; /* margem centralizada horizontalmente */
 			display:table; /* altera o comportamento da div */
+			border:1px solid black;
 		}
 		#dvtopo {
-			width:780px;
+			width:800px;
 			height:200px;
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
 			float:left;
-			background-image:url("imagem/anime.jpg"); /* imagem de fundo */
-			background-position:center 10%; /* posicionamento */
-			background-size:cover; /* forma de apresentação (pode ser contain) */
-			/* background-repeat:no-repeat;  desliga repetição */
+			background-image:url("imagem/anime.jpg");
+			background-position:center 10%;
+			background-size:cover;
+		}
 		#dvesquerda {
 			width:200px;
 	
@@ -55,10 +56,11 @@
 			float:left;
 		}
 		#dvlogo {
-			width:100px;
-			height:100px;
-	
+			width:180px;
+			height:180px;
+			background-image:url("imagem/brasao.png");
 			box-sizing:border-box;
+			background-size:cover; /* ajusta imagem ao tamanho da div */
 			padding:10px;
 			margin:0;
 			float:left;
@@ -68,7 +70,7 @@
 <body>
 	<div id="dvprincipal">
 		<div id="dvtopo">
-			<div id="dvlogo">LOGO</div>
+			<div id="dvlogo"></div>
 			TOPO
 		</div>
 		<div id="dvesquerda">ESQ</div>
