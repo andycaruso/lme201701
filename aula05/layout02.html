@@ -5,9 +5,14 @@
 	<title></title>
 	<style type="text/css">
 		body {margin:0;}
+		div {
+			font-family:sans-serif;
+			box-sizing:border-box; 
+		    margin:0;
+		    padding:10px;
+			}
 		#dvprincipal {
 			width:800px; /* largura */
-			box-sizing:border-box; /*  não soma padding e border com width */
 			padding:0px; /* margem interna */
 			margin:0 auto; /* margem centralizada horizontalmente */
 			display:table; /* altera o comportamento da div */
@@ -16,9 +21,6 @@
 		#dvtopo {
 			width:800px;
 			height:200px;
-			box-sizing:border-box;
-			padding:10px;
-			margin:0;
 			float:left;
 			background-image:url("imagem/anime.jpg");
 			background-position:center 10%;
@@ -26,43 +28,26 @@
 		}
 		#dvesquerda {
 			width:200px;
-	
 			box-sizing:border-box;
-			padding:10px;
-			margin:0;
 			float:left;
 		}
 		#dvcentro {
 			width:400px;
-
-			box-sizing:border-box;
-			padding:10px;
-			margin:0;
-			float:left;}
+			float:left;
+			}
 		#dvdireita {
 			width:180px;
-
-			box-sizing:border-box;
-			padding:10px;
-			margin:0;
 			float:left;
 		}
 		#dvrodape {
 			width:780px;
-
-			box-sizing:border-box;
-			padding:10px;
-			margin:0;
 			float:left;
 		}
 		#dvlogo {
 			width:180px;
 			height:180px;
 			background-image:url("imagem/brasao.png");
-			box-sizing:border-box;
 			background-size:cover; /* ajusta imagem ao tamanho da div */
-			padding:10px;
-			margin:0;
 			float:left;
 		}
 	</style>
