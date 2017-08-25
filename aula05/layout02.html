@@ -7,23 +7,25 @@
 		body {margin:0;}
 		#dvprincipal {
 			width:800px; /* largura */
-			background-color:green;
 			box-sizing:border-box; /*  não soma padding e border com width */
-			padding:10px; /* margem interna */
+			padding:0px; /* margem interna */
 			margin:0 auto; /* margem centralizada horizontalmente */
 			display:table; /* altera o comportamento da div */
 		}
 		#dvtopo {
 			width:780px;
-			background-color:blue;
+			height:200px;
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
 			float:left;
-		}
+			background-image:url("imagem/anime.jpg"); /* imagem de fundo */
+			background-position:center 10%; /* posicionamento */
+			background-size:cover; /* forma de apresentação (pode ser contain) */
+			/* background-repeat:no-repeat;  desliga repetição */
 		#dvesquerda {
 			width:200px;
-			background-color:yellow;
+	
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
@@ -31,14 +33,14 @@
 		}
 		#dvcentro {
 			width:400px;
-			background-color:orange;
+
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
 			float:left;}
 		#dvdireita {
 			width:180px;
-			background-color:magenta;
+
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
@@ -46,7 +48,7 @@
 		}
 		#dvrodape {
 			width:780px;
-			background-color:red;
+
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
@@ -55,7 +57,7 @@
 		#dvlogo {
 			width:100px;
 			height:100px;
-			background-color:white;
+	
 			box-sizing:border-box;
 			padding:10px;
 			margin:0;
