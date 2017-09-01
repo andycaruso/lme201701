@@ -1,0 +1,42 @@
+    div {
+        font-size:20px;
+        font-weight:bold; /* negrito */
+        box-sizing:border-box; /* faz com que padding e 
+        border não sejam somados a width e height */
+    }
+    #dvtopo{
+        padding: 5px;
+        margin: 10px;
+        width:1180px;
+        height: 100px;
+        background-color: red;
+        clear:both;
+        float:left;
+        color:white;
+    }
+    #dvesquerda{
+        padding: 5px;
+        margin: 10px;
+        width:190px;
+        height: 100vh;
+        background-color: yellow;
+        clear:left;
+        float:left;
+    }
+    #dvcentro{
+        padding: 15px;
+        margin: 10px;
+        width:750px;
+        height: 100vh;
+        background-color: orange;
+        float:left;
+    }
+    #dvdireita{
+        padding: 5px;
+        margin: 10px;
+        width:200px;
+        height: 100vh;
+        background-color: gray;
+        color:white;
+        float:left;
+    }
