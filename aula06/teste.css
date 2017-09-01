@@ -1,0 +1,15 @@
+body {
+	margin:0;
+}
+
+.tituloVermelho {
+	color:red;
+}
+
+#meuParagrafo {
+	background-color:yellow;
+}
+
+.fonteArial {
+	font-family:Arial;
+}
