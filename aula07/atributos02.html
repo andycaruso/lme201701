@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IFSUL</title>
+<meta charset="utf-8" />
+<style>
+em[title] {
+    color:red;
+}
+em[title="palavra1"] {
+    background-color:azure;
+}
+
+em[title~="palavra"] {
+    background-color:aqua;
+}
+em[title|="palavra"] {
+    background-color:blueviolet;
+}  
+</style>
+</head>
+<body>
+   <p>Phasellus <em title="palavra1">blandit</em> leo ut odio. Fusce neque.
+
+Nam at tortor in tellus interdum <em title="palavra 2">sagittis</em>. Sed libero.
+
+Nunc interdum lacus <em title="palavra-3">sit</em> amet orci. Integer tincidunt.</p>
+</body>
+</html>

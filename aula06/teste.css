@@ -13,3 +13,9 @@ body {
 .fonteArial {
 	font-family:Arial;
 }
+.dv01 {
+	width:400px;
+	height:50px;
+	overflow:auto;
+	border:1px solid red;
+}
