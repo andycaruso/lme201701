@@ -1,0 +1,71 @@
+body {
+	margin:0;
+	background-color:white;
+}
+
+#main { /* DIV principal */
+	box-sizing:border-box;
+	width:98vw;
+	display:table;
+	background-color:white;
+	margin:0 auto;
+	min-height:100vh;
+	height:100vh;
+	padding:0;
+}
+
+header { /* topo da página (cabeçalho) */
+	box-sizing:border-box;
+	background-color:blue;
+	float:left;
+	clear:both;
+	width:100%;
+	height:25vh;
+	padding:1%;
+}
+
+nav { /* navegação */
+	box-sizing:border-box;
+	background-color:lightyellow;
+	float:left;
+	width:10%;
+	height:inherit;
+	padding:1%
+}
+
+article { /* texto principal */
+	box-sizing:border-box;
+	background-color:white;
+	float:left;
+	width:70%;
+	height:inherit;
+	padding:1%
+}
+
+aside { /* texto secundário */
+	box-sizing:border-box;
+	background-color:navajowhite;
+	float:left;
+	width:20%;
+	height:inherit;
+	padding:1%
+}
+
+footer{ /* rodapé */
+	box-sizing:border-box;
+	background-color:blue;
+	color:white;
+	height:7vh;
+	float:left;
+	clear:both;
+	width:100%;
+	padding:1%
+}
+
+figure {
+	background-color:lightgray;
+	width:239px;
+	padding:1px;
+	float:left;
+	
+}

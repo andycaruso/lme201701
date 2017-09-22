@@ -1,0 +1,59 @@
+ body,html {
+                background-color: rosybrown;
+                margin:0;
+                height: 100%;
+                width:100%;
+            }
+            #dvprincipal {
+                width:90%;
+                height: 100%;
+                background-color: blue;
+                display:block;
+                padding:0px;
+                margin:0 auto;
+            }
+            nav{
+                width:30%;
+                height: 100%;
+                background-color: orange;
+                display:block;
+                padding:0px;
+                float:left;
+            }
+            article{
+                width: 50%;
+                height: 100%;
+                background-color: black;
+                display:block;
+                padding:0px;
+                float:left;
+                color:white;
+                
+            }
+             aside{
+                width: 20%;
+                height: 100%;
+                background-color: gray;
+                display:block;
+                padding:0px;
+                float:left;
+                color:white; 
+            }
+             header{
+                width: 100%;
+                height: 30%;
+                background-color: crimson;
+                display:block;
+                padding:0px;
+                 background-image: url(topo.jpg);
+                background-size: cover;
+            }
+            footer{
+                width: 100%;
+                height: 10%;
+                background-color: blue;
+                display:block;
+                padding:0px;
+                clear:both;
+            }
+        

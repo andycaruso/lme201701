@@ -1,0 +1,64 @@
+body,html {
+                background-color: rosybrown;
+                margin:0;
+                height: 100%;
+                width:100%;  
+            }
+            #dvprincipal {
+                width:90%;
+                height: 100%;
+                background-color: blue;
+                display:block;
+                padding:0px;
+                margin:0 auto;
+            }
+            #dvmenu{
+                width:30%;
+                height: 100%;
+                background-color: aquamarine;
+                display:block;
+                padding:0px;
+                float:left;
+                
+            }
+            #dvconteudo{
+                width: 50%;
+                height: 100%;
+                background-color: fuchsia;
+                display:block;
+                padding:0px;
+                float:left;
+                color:white;
+                
+            }
+             #dvlateral{
+                width: 20%;
+                height: 100%;
+                background-color: cyan;
+                display:block;
+                padding:0px;
+                float:left;
+                color:white;
+                
+            }
+             #dvtopo{
+                width: 100%;
+                height: 30%;
+                background-color: white;
+                display:block;
+                padding:0px;
+                background-image: url(topo.jpg);
+                background-size: cover;
+                
+            }
+            #dvrodape{
+                width: 100%;
+                height: 10%;
+                background-color: orange;
+                display:block;
+                padding:0px;
+                clear:both;
+            }
+            p{
+              padding: 20px;
+            }
