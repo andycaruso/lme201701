@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IFSUL</title>
+<meta charset="utf-8" />
+<style>
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+ul li {
+	position: relative;
+    margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li ul {  /*UL SUBMENU */
+	position: absolute;
+	top: 26px;
+	left:-40px;
+	display: none;
+}
+
+ul li a:hover { color: #E2144A; background: #f9f9f9; } /* Hover  */
+
+li:hover ul, li.over ul { display: block; } /* A MÁGICA */
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="#1">Home</a></li>
+  <li><a href="#3">Novidades</a></li>
+    <li><a href="#">Produtos</a>
+      <ul>
+        <li><a href="#">Salgados</a></li>
+        <li><a href="#">Bebidas</a></li>
+        <li><a href="#">Doces</a></li>
+      </ul>
+    </li>
+  <li><a href="#2">Contatos</a></li>
+  <li><a href="#4">Sobre</a></li>
+</ul>
+
+
+
+</body>
+</html>
