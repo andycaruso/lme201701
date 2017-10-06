@@ -4,14 +4,29 @@
 <title>IFSUL</title>
 <meta charset="utf-8" />
 <style>
-
+	#imagem {
+		position:absolute;
+		z-index:0;
+		top:10px;
+		left:10px;
+	}
+	#texto {
+		position:absolute;
+		z-index:1;
+		top:10px;
+		left:10px;
+		background-color:yellow;
+	}
 </style>
 </head>
 <body>
-<img src="brasao.png"/>
-<h1>Titulo</h1> 
-<p>Posicione a imagem  sob o texto da página usando posicionamento</p>
-
+<div id="imagem">
+	<img src="brasao.png"/>
+</div>
+<div id="texto">
+	<h1>Titulo</h1> 
+	<p>Posicione a imagem sob o texto da página usando posicionamento</p>
+</div>
 
 
 </body>
